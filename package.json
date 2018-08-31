@@ -1,0 +1,17 @@
+{
+    "name": "quip-live-app-for-alm-octane",
+    "version": "0.0.1",
+    "description": "quip-live-app-for-alm-octane Quip App",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "author": "",
+    "dependencies": {
+        "whatwg-fetch": "^2.0.4"
+    },
+    "devDependencies": {
+        "quip-apps-webpack-config": ">=0.0.29"
+    }
+}
